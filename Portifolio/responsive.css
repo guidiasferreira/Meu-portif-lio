@@ -1,0 +1,124 @@
+
+@media screen and (max-width: 768px) {
+
+    header .container{
+        flex-direction: column;
+        justify-content: center;
+        height: 18vh;
+    }
+
+    nav ul li {
+        padding: 0 5vw;
+    }
+    
+    .titleHeader{
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        text-align: center;
+    }
+
+    .titleAbout{
+        text-align: center;
+    }
+
+    .iconsAbout{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;   
+        width: 100%; 
+    }
+
+    .iconsPartAbout{
+        justify-content: center;
+        width: 35%;
+    }
+
+    .iconsSkills{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        width: 100%;
+    }
+
+    .iconsPartSkills{
+        width: 45%;
+        justify-content: center;
+    }
+
+    .eu{
+        display: none;
+    }
+
+    .contactSection{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .iconsContact{
+        display: none;
+    }
+
+    .titleContact{
+        text-align: center;
+    }
+
+    .textContact{
+        text-align: center;
+    }
+
+    form{
+        width: 50%;
+    }
+
+    footer .container{
+        height: 100%;
+        width: 100%;
+    }
+
+    .partFooter{
+        gap: 8vw;
+        margin-top: 1vh;
+    }
+
+}
+
+@media screen and (max-width: 520px) {
+    .partFooter{
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .iconsFooter, #siga{
+        display: none;
+    }
+
+    .iconsAbout{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;   
+        width: 100%;
+    }
+
+    .iconsPartAbout{
+        justify-content: center;
+        width: 85%;
+    }
+
+    .iconsSkills{
+        flex-direction: column;
+        align-items: center;
+        gap: 2vh;
+        width: 100%;
+    }
+
+    .iconsPartSkills{
+        width: 85%;
+        justify-content: center;
+    }
+
+    form{
+        width: 100%;
+    }
+
+}
